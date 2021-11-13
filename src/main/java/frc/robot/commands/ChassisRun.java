@@ -11,6 +11,7 @@ public class ChassisRun extends CommandBase {
 
     public ChassisRun(Chassis chassis) {
         mChassis = chassis;
+        addRequirements(mChassis);
     }
 
     @Override
